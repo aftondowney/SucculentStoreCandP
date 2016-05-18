@@ -1,0 +1,5 @@
+name = Chick's and Pricks Fusion
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = css/style.css
+base theme = fusion_prosper
