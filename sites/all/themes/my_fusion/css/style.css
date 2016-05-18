@@ -8,10 +8,10 @@
 }
 
 #site-name {
-  color: white !important;
   font-size: 55px;
   margin-top: 18px;
   margin-left: 30px;
+  font-family: 'Niconne', cursive;
 }
 
 #header-group {
@@ -20,11 +20,46 @@
   height: 80px;
 }
 
+#site-name a:link, #site-name a:visited {
+  color: #F1EDED;
+}
+
 #header-group-inner {
   padding-bottom: 0px;
   padding-top: 0px;
 }
 
 #header-group-wrapper {
-  background-color: lightblue;
+  background-color: #9dbab5;
+}
+
+#footer-wrapper, #page-bottom {
+  background-color: #9dbab5;
+  border-top: 0px;
+}
+
+html {
+  background-color: #9dbab5;
+  color: #5e5467;
+  font-family: 'Caudex', serif;
+}
+
+#product-details, h2, h1 {
+  font-family: 'Caudex', serif;
+  color: #5e5467;
+}
+
+a, a:link, a:visited{
+  color: #a4635d;
+  font-family: 'Caudex', serif;
+}
+
+li a.active {
+  color: #838553;
+  font-family: 'Caudex', serif;
+}
+
+input#edit-submit {
+  background-color: #e2e6d8;
+  font-family: 'Caudex', serif;
 }
