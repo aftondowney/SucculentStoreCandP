@@ -1,16 +1,17 @@
 #background_image {
-  background-image: url(../images/greenhouse.jpg);
+  background-image: url(../images/greenhouse.jpg) !important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  opacity: 0.6;
   width: 100%;
 }
 
 #site-name {
+  color: white !important;
   font-size: 55px;
   margin-top: 18px;
+  margin-left: 30px;
 }
 
 #header-group {
@@ -22,4 +23,8 @@
 #header-group-inner {
   padding-bottom: 0px;
   padding-top: 0px;
+}
+
+#header-group-wrapper {
+  background-color: lightblue;
 }
