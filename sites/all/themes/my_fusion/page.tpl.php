@@ -73,17 +73,18 @@
 
       <!-- header-group region: width = grid_width -->
       <div id="header-group-wrapper" class="header-group-wrapper full-width clearfix">
+        <div id="background_image"></div>
         <div id="header-group" class="header-group region <?php print $grid_width; ?>">
           <div id="header-group-inner" class="header-group-inner inner clearfix">
 
             <?php if ($logo || $site_name || $site_slogan): ?>
             <div id="header-site-info" class="header-site-info">
               <div id="header-site-info-inner" class="header-site-info-inner gutter">
-                <?php if ($logo): ?>
+                <!-- <?php if ($logo): ?>
                 <div id="logo">
                   <a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
                 </div>
-                <?php endif; ?>
+                <?php endif; ?> -->
                 <?php if ($site_name || $site_slogan): ?>
                 <div id="site-name-wrapper" class="clearfix">
                   <?php if ($site_name): ?>
@@ -103,7 +104,7 @@
             <?php endif; ?>
 
             <?php print render($page['header']); ?>
-            
+
           </div><!-- /header-group-inner -->
         </div><!-- /header-group -->
       </div><!-- /header-group-wrapper -->

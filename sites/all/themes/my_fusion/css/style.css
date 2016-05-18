@@ -1,3 +1,25 @@
-#header-group-wrapper  {
-  background-color: red;
+#background_image {
+  background-image: url(../images/greenhouse.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  opacity: 0.6;
+  width: 100%;
+}
+
+#site-name {
+  font-size: 55px;
+  margin-top: 18px;
+}
+
+#header-group {
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 80px;
+}
+
+#header-group-inner {
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
