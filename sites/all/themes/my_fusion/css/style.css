@@ -7,6 +7,10 @@
   width: 100%;
 }
 
+body {
+  font-family: 'Caudex', serif;
+}
+
 #site-name {
   font-size: 75px;
   margin-top: 30px;
@@ -43,6 +47,7 @@ html {
   color: #5e5467;
   font-family: 'Caudex', serif;
 }
+
 
 #product-details, h2, h1 {
   font-family: 'Caudex', serif;
