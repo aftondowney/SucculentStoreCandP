@@ -32,6 +32,12 @@
     <div id="product-group" class="product-group">
       <div class="images">
         <?php print $fusion_uc_image; ?>
+        <?php print $fusion_uc_sell_price; ?>
+        <?php if ($fusion_uc_additional && !$teaser): ?>
+          <div id="product-additional" class="product-additional">
+            <?php print $fusion_uc_additional; ?>
+          </div>
+        <?php endif; ?>
       </div><!-- /images -->
 
       <div class="content clearfix">
@@ -45,10 +51,9 @@
             <?php print $fusion_uc_dimensions; ?>
             <?php print $fusion_uc_sku; ?>
             <?php print $fusion_uc_list_price; ?>
-            <?php print $fusion_uc_sell_price; ?>
             <?php print $fusion_uc_cost; ?>
           </div>
-          
+
           <div id="price-group">
             <?php print $fusion_uc_display_price; ?>
             <?php print $fusion_uc_add_to_cart; ?>
@@ -56,16 +61,10 @@
 
         </div><!-- /product-details -->
 
-        <?php if ($fusion_uc_additional && !$teaser): ?>
-          <div id="product-additional" class="product-additional">
-            <?php print $fusion_uc_additional; ?>
-          </div>
-        <?php endif; ?>
 
-        <?php print render($content['links']); ?>
 
         <?php print render($content['comments']); ?>
-  
+
       </div><!-- /content -->
     </div><!-- /product-group -->
   </div><!-- /inner -->
