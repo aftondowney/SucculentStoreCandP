@@ -67,3 +67,8 @@ input#edit-submit {
   background-color: #e2e6d8;
   font-family: 'Caudex', serif;
 }
+
+#block-system-main-menu {
+  float: right;
+  text-align:right;
+}

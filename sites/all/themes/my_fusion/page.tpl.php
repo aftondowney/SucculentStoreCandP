@@ -108,7 +108,9 @@
           </div><!-- /header-group-inner -->
         </div><!-- /header-group -->
       </div><!-- /header-group-wrapper -->
-		<?php print render($page['main_menu']); ?> <!-- /moved main-menu out of header wrapper for 100% width -->
+      <div class="main_menu_alignment">
+      		<?php print render($page['main_menu']); ?> <!-- /moved main-menu out of header wrapper for 100% width -->
+      </div>
       <?php print render($page['preface_top']); ?>
 
       <!-- main region: width = grid_width -->
