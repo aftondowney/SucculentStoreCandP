@@ -68,7 +68,7 @@ input#edit-submit {
   font-family: 'Caudex', serif;
 }
 
-.main_menu_alignment {
+#block-system-main-menu {
   float: right;
   text-align:right;
 }
