@@ -15,13 +15,14 @@ body {
   font-size: 75px;
   margin-top: 30px;
   margin-left: 30px;
+  margin-bottom: 0px;
   font-family: 'Niconne', cursive;
 }
 
 #header-group {
   margin-left: 0px;
   margin-right: 0px;
-  height: 80px;
+  height: 75px;
 }
 
 #site-name a:link, #site-name a:visited {
@@ -31,10 +32,15 @@ body {
 #header-group-inner {
   padding-bottom: 0px;
   padding-top: 0px;
+  width: 100%
 }
 
 #header-group-wrapper {
   background-color: #9dbab5;
+}
+
+#header-site-info-inner {
+  padding-bottom: 0px;
 }
 
 #footer-wrapper, #page-bottom {
@@ -68,7 +74,15 @@ input#edit-submit {
   font-family: 'Caudex', serif;
 }
 
-#block-system-main-menu {
+h2.title.block-title {
+  display: none;
+}
+
+.gutter {
   float: right;
-  text-align:right;
+  margin-right: 0px;
+}
+
+ul.menu {
+  margin-bottom: 0px;
 }
