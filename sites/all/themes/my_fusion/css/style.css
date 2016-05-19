@@ -74,7 +74,7 @@ input#edit-submit {
   font-family: 'Caudex', serif;
 }
 
-h2.title.block-title {
+#block-system-main-menu .gutter h2.title.block-title {
   display: none;
 }
 
@@ -85,4 +85,7 @@ h2.title.block-title {
 
 ul.menu {
   margin-bottom: 0px;
+  margin-right: 15px;
+  font-size: 19px;
+  color: #F1EDED;
 }

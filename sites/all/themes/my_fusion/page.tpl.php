@@ -74,7 +74,7 @@
       <!-- header-group region: width = grid_width -->
       <div id="header-group-wrapper" class="header-group-wrapper full-width clearfix">
         <div id="background_image"></div>
-        <div id="header-group" class="header-group region <?php print $grid_width; ?>">
+        <div id="header-group" class="header-group region">
           <div id="header-group-inner" class="header-group-inner inner clearfix">
 
             <?php if ($logo || $site_name || $site_slogan): ?>
