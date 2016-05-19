@@ -89,3 +89,7 @@ ul.menu {
   font-size: 19px;
   color: #F1EDED;
 }
+
+.view-store-calendar .view-header {
+  display: none;
+}
