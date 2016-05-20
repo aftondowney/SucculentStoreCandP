@@ -93,3 +93,20 @@ ul.menu {
 .view-store-calendar .view-header {
   display: none;
 }
+
+region.region-help.help.nested.grid12-9 {
+  max-height: 100px;
+}
+
+#block-views-tip-carousel-block {
+  background-color: transparent;
+}
+
+.tip_carousel {
+  max-height: 100px;
+  background-color: transparent;
+}
+
+#content-help-inner {
+  width: 487px;
+}
